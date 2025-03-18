@@ -42,8 +42,10 @@ Ces projest cités ont été réalisés dans un cadre légal et totalement ethiq
    - Les fichiers sont exfiltrés vers un C2.  
    - Les fichiers originaux sont supprimés et l'emplacement disque est rempli de nullbytes.  
    - Enfin, une demande de rançon est faite via un bloc-note.
+     
+   https://youtu.be/PU3ZEhizhiw
 
-   ![alt text](img/ransomware.mp4)
+   ![vidéo Brute](img/ransomware.mp4)
 
 5. **Bypass de l'EDR Defender : Pack de Shellcode et PuTTY**  
    - C'est l'un des projets dont je suis le plus fier, plus d'un an et demi de recherche.  
@@ -53,6 +55,8 @@ Ces projest cités ont été réalisés dans un cadre légal et totalement ethiq
    - Je pack mon shellcode et répare le PE que je viens de modifier (obligatoire lorsqu'on modifie l'hexadécimal directement).  
    - Au moment de lancer la connexion, mon payload se lance, créant un socket et redirigeant les sorties, entrées et erreurs du `cmd.exe` vers la socket, qui est connectée à la machine attaquante.
 
-   ![alt text](img/shellcode.mp4)
+   https://youtu.be/Kt86VSvLIs8
+
+   ![vidéo Brute](img/shellcode.mp4)
 
 
