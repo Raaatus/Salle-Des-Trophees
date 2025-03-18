@@ -54,6 +54,8 @@ Ces projest cités ont été réalisés dans un cadre légal et totalement ethiq
    - Grâce à la décompilation, je peux vraiment comprendre son fonctionnement.  
    - Je pack mon shellcode et répare le PE que je viens de modifier (obligatoire lorsqu'on modifie l'hexadécimal directement).  
    - Au moment de lancer la connexion, mon payload se lance, créant un socket et redirigeant les sorties, entrées et erreurs du `cmd.exe` vers la socket, qui est connectée à la machine attaquante.
+   ![vidéo Brute](img/shellcode.gif)
+
 
    https://youtu.be/Kt86VSvLIs8
 
