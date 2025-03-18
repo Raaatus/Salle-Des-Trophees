@@ -42,8 +42,6 @@ Ces projest cités ont été réalisés dans un cadre légal et totalement ethiq
    - Les fichiers sont exfiltrés vers un C2.  
    - Les fichiers originaux sont supprimés et l'emplacement disque est rempli de nullbytes.  
    - Enfin, une demande de rançon est faite via un bloc-note.
-     
-   https://youtu.be/PU3ZEhizhiw
 
    ![vidéo Brute](img/ransomware.mp4)
 
@@ -56,8 +54,6 @@ Ces projest cités ont été réalisés dans un cadre légal et totalement ethiq
    - Au moment de lancer la connexion, mon payload se lance, créant un socket et redirigeant les sorties, entrées et erreurs du `cmd.exe` vers la socket, qui est connectée à la machine attaquante.
    ![vidéo Brute](img/shellcode.gif)
 
-
-   https://youtu.be/Kt86VSvLIs8
 
    ![vidéo Brute](img/shellcode.mp4)
 
