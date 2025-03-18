@@ -12,7 +12,7 @@ Ces projest cités ont été réalisés dans un cadre légal et totalement ethiq
 
 1. **Exploitation du Driver pour passer d'un compte utilisateur à un compte système**  
    - Grâce au driver [`dbutil_2_3.sys`](https://www.dell.com/support/kbdoc/fr-fr/000186019/mise-a-jour-de-s%C3%A9curit%C3%A9-de-la-plate-forme-client-dell-suite-a-une-faille-de-s%C3%A9curit%C3%A9-de-controle-dacc%C3%A8s-insuffisant-dans-le-pilote-dell), il est possible de l'utiliser pour lire la mémoire avec les droits d'autorité kernel.  
-   - En utilisant les bons ioctl, on peut lire la mémoire du processus actuel.  
+   - En utilisant les bons [ioctl](https://fr.wikipedia.org/wiki/Ioctl), on peut lire la mémoire du processus actuel.  
    - Voler le token Système (l'autorité la plus haute visible).  
    - Appliquer ce token à notre nouveau processus.
 
@@ -39,7 +39,7 @@ Ces projest cités ont été réalisés dans un cadre légal et totalement ethiq
    - Il a la capacité de bypasser les EDR (basé sur la façon dont les EDR bloquent les ransomwares).  
    - Une clé 32 bits est générée et envoyée à l'attaquant.  
    - La machine victime chiffre les données (ici, uniquement `C:/Users/user`) avec cette clé.  
-   - Les fichiers sont exfiltrés vers un C2.  
+   - Les fichiers sont exfiltrés vers un [C2](https://www.algosecure.fr/actualites/article/introduction-command-and-control-c2#:~:text=Le%20serveur%20C2%20short%20term,ex%C3%A9cution%20d'une%20commande%20sp%C3%A9cifique.).  
    - Les fichiers originaux sont supprimés et l'emplacement disque est rempli de nullbytes.  
    - Enfin, une demande de rançon est faite via un bloc-note.
 
